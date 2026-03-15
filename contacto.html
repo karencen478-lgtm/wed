@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Contacto</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#fff0f6;
+margin:0;
+}
+
+header{
+background:#9d4edd;
+color:white;
+text-align:center;
+padding:20px;
+font-size:35px;
+}
+
+/* MENU */
+
+nav{
+background:#c77dff;
+}
+
+nav ul{
+list-style:none;
+margin:0;
+padding:0;
+display:flex;
+justify-content:center;
+}
+
+nav ul li{
+position:relative;
+}
+
+nav ul li a{
+display:block;
+padding:15px 20px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav ul li a:hover{
+background:#9d4edd;
+}
+
+/* submenu */
+
+nav ul li ul{
+display:none;
+position:absolute;
+top:50px;
+left:0;
+background:#ff99cc;
+flex-direction:column;
+min-width:180px;
+}
+
+nav ul li ul li a{
+padding:10px;
+}
+
+nav ul li:hover ul{
+display:block;
+}
+
+/* contenido */
+
+.contenedor{
+width:80%;
+margin:auto;
+padding:20px;
+}
+
+form{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0px 0px 5px gray;
+}
+
+label{
+font-size:18px;
+}
+
+input, textarea{
+width:100%;
+padding:10px;
+margin-top:8px;
+margin-bottom:15px;
+border-radius:6px;
+border:1px solid gray;
+}
+
+button{
+background:#ff4da6;
+color:white;
+border:none;
+padding:12px 25px;
+font-size:18px;
+border-radius:10px;
+cursor:pointer;
+}
+
+.boton{
+text-align:center;
+margin-top:30px;
+}
+
+.boton a{
+background:#ff4da6;
+color:white;
+padding:12px 25px;
+text-decoration:none;
+border-radius:10px;
+}
+
+footer{
+background:#9d4edd;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+Contacto
+</header>
+
+<!-- MENU DESPLEGABLE -->
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Inicio</a></li>
+
+<li>
+<a href="#">Redes Sociales</a>
+
+<ul>
+
+<li>
+<a href="https://www.instagram.com/stef_x11_?igsh=Y2N2MDJ4aW9yZWJh" target="_blank">
+Instagram
+</a>
+</li>
+
+<li>
+<a href="https://www.facebook.com/share/1DG1LvMKq4/ target="_blank">
+Facebook
+</a>
+</li>
+
+<li>
+<a href="https://www.tiktok.com/@fanismic?_r=1&_t=ZS-94bdZOHzif1" target="_blank">
+TikTok
+</a>
+</li>
+
+</ul>
+
+</li>
+
+</ul>
+
+</nav>
+
+<div class="contenedor">
+
+<form>
+
+<label>Nombre</label>
+<input type="text" placeholder="escribe tu nombre">
+
+<label>Correo electrónico</label>
+<input type="email" placeholder="Escribe tu correo">
+
+<label>Mensaje</label>
+<textarea rows="5" placeholder="Escribe tu mensaje"></textarea>
+
+<button type="submit">Enviar</button>
+
+</form>
+
+</div>
+
+<div class="boton">
+<a href="index1.html">Regresar al inicio</a>
+</div>
+
+<footer>
+Proyecto escolar sobre anatomia
+</footer>
+
+</body>
+</html>
